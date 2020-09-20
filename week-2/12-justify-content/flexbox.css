@@ -1,9 +1,46 @@
 .countries {
   display: flex;
 }
-
 .countries--second .country {
   padding: 0.5em;
 }
 
 /* Add your own CSS code below */
+.countries.countries--first {
+  margin: 0;
+  padding-left: 10px;
+  padding: 1rem;
+  list-style: none;
+  background: #25262f;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.countries.countries--second {
+  margin: 0;
+  padding: 1rem;
+  list-style: none;
+  background: #25262f;
+  display: flex;
+  justify-content: space-around;
+}
+
+.countries.countries--third {
+  margin: 0;
+  padding: 1rem;
+  list-style: none;
+  background: #25262f;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.countries.countries--fourth {
+  margin: 0;
+  padding: 1rem;
+  list-style: none;
+  background: #25262f;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+}
