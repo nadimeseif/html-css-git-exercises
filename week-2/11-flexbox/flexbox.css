@@ -1,1 +1,18 @@
 /* Add your own CSS code below */
+.countries.countries--first {
+  margin: 0;
+  padding: 1rem;
+  list-style: none;
+  background: #25262f;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.countries.countries--third {
+  margin: 0;
+  padding: 1rem;
+  list-style: none;
+  background: #25262f;
+  display: flex;
+  flex-direction: column-reverse;
+}
